@@ -1,0 +1,45 @@
+public class Professor {
+    private int id;
+    private String nome;
+    private String email;
+    private String senha;
+
+    public Professor(int id, String nome, String email, String senha) {
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+    }
+
+    public void cadastrarAluno(Aluno aluno) {
+        // 
+    }
+
+    public void cadastrarAtividade(Atividade atividade) {
+        // 
+    }
+
+    public void consultarAluno(int idAluno) {
+        
+    }
+
+    public void consultarAtividade(int idAtividade) {
+        
+    }
+
+    public void editarAtividade(Atividade atividade) {
+        
+    }
+
+    public void excluirAtividade(int idAtividade) {
+        
+    }
+
+    public void editarPerfil(String novoNome, String novoEmail, String novaSenha) {
+        this.nome = novoNome;
+        this.email = novoEmail;
+        this.senha = novaSenha;
+    }
+
+    /
+}
