@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>DOC.orp</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+</html>
+<form>
+    <h2>Criar conta</h2>
+    <input type="text" name="nome" placeholder="Nome completo" required>
+    <input type="text" name="cpf" placeholder="CPF (somente números)" pattern="\d{11}" title="Digite 11 números do CPF" required>
+    <input type="email" name="email" placeholder="E-mail" required>
+    <input type="password" name="senha" placeholder="Senha" required>
+    <input type="password" name="confirmar_senha" placeholder="Confirmar senha" required>
+    <button type="submit">Cadastrar</button>
+</form>
